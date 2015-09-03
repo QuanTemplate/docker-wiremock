@@ -1,10 +1,10 @@
 # --- WIREMOCK ---
 
-FROM java:7
+FROM java:8
 MAINTAINER dev@quantemplate.com
 
 ENV WM_PACKAGE wiremock
-ENV WM_VERSION 1.55
+ENV WM_VERSION 1.57
 
 RUN mkdir /$WM_PACKAGE
 WORKDIR /$WM_PACKAGE
